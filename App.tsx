@@ -5,6 +5,7 @@ import SearchBar from '../trabalho-individual-react/components/barraPesquisa';
 import GetPlayerInfo from '../trabalho-individual-react/components/jogadorInfo';
 import GetTeamInfo from '../trabalho-individual-react/components/timeInfo';
 
+
 const App: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [showPlayerInfo, setShowPlayerInfo] = useState<boolean>(false);

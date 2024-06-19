@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Text, View, TextInput, StyleSheet, TouchableOpacity, TextInputProps } from 'react-native';
+
+
 interface Props {
   onSearch: (query: string) => void;
 }
